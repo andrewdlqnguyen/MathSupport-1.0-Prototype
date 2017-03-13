@@ -129,3 +129,4 @@ def main():
     math_program()
     
 main()
+input('Press ENTER to exit')
