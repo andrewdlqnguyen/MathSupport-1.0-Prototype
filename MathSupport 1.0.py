@@ -2,7 +2,7 @@ import math
     
 def math_program():
     
-    option_list = [' 1. Quadratic Formula', ' 2. Area of Shapes', ' 0. Quit']
+    option_list = ['1. Quadratic Formula', '2. Area of Shapes', '0. Quit']
     count_list = 0
     count_max = (len(option_list)-1)
     
