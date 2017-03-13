@@ -2,9 +2,9 @@ import math
     
 def math_program():
     
-    count_list = 0
-    count_max = 1
     option_list = [' 1. Quadratic Formula', ' 2. Area of Shapes', ' 0. Quit']
+    count_list = 0
+    count_max = (len(option_list)-1)
     
     print ('\nThank you for using MathSupport 1.0 Prototype \nPlease select one of the following options from ', count_list, ' to ', count_max)
     print ('====================================================')
