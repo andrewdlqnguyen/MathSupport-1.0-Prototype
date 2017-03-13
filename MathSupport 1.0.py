@@ -19,8 +19,7 @@ def quadratic():
     except ValueError:
         print ('Oops! That is either an invalid input or it contains an imaginary number')  
         
-def areaofshape():
-    
+def areaofshape():    
     temp_list = ['1. Square', '2. Rectangle', '3. Circle', '4. Triangle', '5. Trapezoid', '6. Parallelogram', '0. Quit']
     print ('====================================================')
     print ('Please choose a shape')
