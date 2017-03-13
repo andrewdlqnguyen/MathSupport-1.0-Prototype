@@ -1,21 +1,3 @@
-'''
-def scores():
-
-    count = int(input('Enter a number (q,Q, or quit to exit): '))
-    scoreList = []
-    for i in range(1, count+1):
-            scoreList.append(int(input('Enter a number (q,Q, or quit to exit): ')))
-            print(scoreList)
-    
-
-    mysum = sum(scoreList)
-    average = 1.0*mysum / count
-    print ('Minimum: ', str(min(scoreList)))
-    print ('Maximum: ', str(max(scoreList)))
-    print ('Total: ', str(mysum))
-    print ('Average: ', str(average))
-scores()
-'''
 import math
     
 def math_program():
